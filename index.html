@@ -35,7 +35,7 @@
 <body>
 
     <div class="brand">Creative Films</div>
-    <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
+    <div class="address-bar"></div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default" role="navigation">
@@ -58,11 +58,16 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="photos.html">Photos</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Photos <span class="caret"></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="candidPhotography.html">Candid Photography</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="prewedding.html">Prewedding Photography</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="wedding.html">Wedding Photography</a></li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="videos.html">Videos</a>
-                    </li>
+
                     <li>
                         <a href="about.html">About</a>
                     </li>
@@ -128,7 +133,7 @@
                         <div id="Awesome" class="anim750">
 
                             <div class="reveal circle_wrapper">
-                                <div class="circle">Hello!</div>
+                                <div class="circle">Sharma</div>
                             </div>
 
                             <div class="sticky anim750">
@@ -137,7 +142,7 @@
                                 </div>
                             </div>
 
-                            <h4>Peel Me!</h4>
+                            <h4>Kapil</h4>
 
                             <div class="sticky anim750">
                                 <div class="back circle_wrapper anim750">
@@ -205,7 +210,7 @@
        <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
-        interval: 5000 //changes the speed
+        interval: 3000 //changes the speed
     })
 
     </script>
