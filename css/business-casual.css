@@ -11,6 +11,7 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
 }
 
 h1,
@@ -39,6 +40,9 @@ hr {
 .brand,
 .address-bar {
     display: none;
+}
+.container {
+    width: 80%
 }
 
 .navbar-brand {
