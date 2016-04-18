@@ -65,6 +65,12 @@ hr {
     letter-spacing: 3px;
 }
 
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+}
+
 .img-full {
     min-width: 100%;
 }
